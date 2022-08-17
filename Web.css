@@ -1,0 +1,8 @@
+h4 {
+	color: darkblue;
+	font-family: sans-serif;
+}
+
+.blog_heading  :hover{
+	color: red;
+}
