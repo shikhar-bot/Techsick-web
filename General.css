@@ -1,0 +1,102 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Roboto;
+	background-size: cover;
+	background: #303030;
+	color: white;
+	background-repeat: no-repeat;
+	height: 465vh;
+}
+
+.container{
+	position: absolute;
+	top: -10px;
+	left: 10px;
+	right: 10px;
+	color: white;
+}
+
+.content{
+	width: 70vw;
+	color: white;
+}
+
+.blog_title, .blog_image{
+	text-align: center;
+}
+
+.comment{
+	border-bottom: 1px solid;
+}
+
+.blue{
+	color: blueviolet;
+}
+
+.updateheading {
+	color: cyan;
+    font-family: cursive;
+    font-size: larger;
+    font-variant: small-caps;
+    border-bottom: double;
+}
+
+.updatepara {
+    font-family: cursive;
+}
+
+.blog_title :hover {
+	color: cyan;
+}
+
+.blog_title, .list{
+	color: #1a73e8;
+}
+
+.footer{
+	background: #202124;
+	margin: 0;
+	padding: 0;
+}
+
+.subs:hover{
+	color: red;
+}
+
+.border{
+	border-bottom: 1px solid silver;
+	
+}
+
+input[type="submit"]{
+	border-radius: 25px;
+	height: 20px;
+	width: 5%;
+	border: 1px solid;
+	font-size: 13px;
+	font-weight: 550;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover{
+	background: #2691d9;
+	color: white;
+	transition: .5s;
+}
+
+input[type="button"]{
+	border-radius: 25px;
+	height: 25px;
+	width: 10%;
+	border: 1px solid;
+	font-size: 13px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+input[type="button"]:hover{
+	background: red;
+	color: white;
+	transition: .5s;
+}
